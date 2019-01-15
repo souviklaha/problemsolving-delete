@@ -14,3 +14,11 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+test {
+    systemProperty 'testFilesRootDirectory', project.testFilesRootDirectory
+
+    testLogging {
+        events "standardOut", "standardError", "failed", "skipped"//, "started", "passed"
+    }
+}
