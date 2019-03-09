@@ -1,6 +1,14 @@
+[![Language: Java](https://img.shields.io/badge/Language-Java-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
+
 # Problem Solving
 
 Implementation and unit tests for Algorithm, Data structures and leetcode problem set.
+
+## Problems
+
+[LeetCode Problems](https://github.com/toumangg/problemsolving/wiki/LeetCode-Problems)
+
 
 ## How to Contribute?
 
