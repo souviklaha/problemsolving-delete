@@ -2,6 +2,10 @@
 
 Implementation and unit tests for Algorithm, Data structures and leetcode problem set.
 
+## How to Contribute?
+
+Check this [link](https://github.com/toumangg/problemsolving/wiki/How-to-Contribute%3F).
+
 ## License
 Copyright (C) 2019 by Umang J Gala.
 
