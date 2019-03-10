@@ -1,5 +1,8 @@
 package org.svaarg.problemsolving.array;
 
+// Author               : Umang J Gala
+// Last Modified Date   : 02-Feb-2019
+
 /*
 Problem Statement
 -----------------
@@ -40,7 +43,7 @@ import java.util.Arrays;
  *
  * @author Umang J Gala
  */
-public class NextGreaterNumber {
+class NextGreaterNumber {
   int findNext(char[] noDigits) {
     int i;
 

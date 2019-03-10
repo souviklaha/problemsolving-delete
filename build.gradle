@@ -19,6 +19,6 @@ test {
   systemProperty 'testFilesRootDirectory', project.testFilesRootDirectory
 
   testLogging {
-    events "standardOut", "standardError", "failed", "skipped"//, "started", "passed"
+    events "standardOut", "standardError", "failed", "skipped", "passed"//, "started"
   }
 }

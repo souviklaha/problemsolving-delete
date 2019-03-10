@@ -1,4 +1,4 @@
-[![Language: Java](https://img.shields.io/badge/Language-Java-yellow.svg)](LICENSE)
+[![Language: Java](https://img.shields.io/badge/Language-Java-yellow.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 
 # Problem Solving
