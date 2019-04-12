@@ -1,8 +1,5 @@
 package org.svaarg.problemsolving.leetcode;
 
-// Author : Umang J Gala
-// Date   : 12-Feb-2019
-
 /*
 Problem Statement
 -----------------

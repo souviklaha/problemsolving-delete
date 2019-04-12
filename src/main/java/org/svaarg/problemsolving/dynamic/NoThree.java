@@ -1,8 +1,5 @@
 package org.svaarg.problemsolving.dynamic;
 
-// Author : Umang J Gala
-// Date   : 09-Apr-2019
-
 /*
 Problem Statement
 -----------------

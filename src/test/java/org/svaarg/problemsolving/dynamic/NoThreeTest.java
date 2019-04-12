@@ -1,8 +1,5 @@
 package org.svaarg.problemsolving.dynamic;
 
-// Author : Umang J Gala
-// Date   : 09-Apr-2019
-
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;

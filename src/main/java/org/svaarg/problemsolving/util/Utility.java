@@ -1,8 +1,5 @@
 package org.svaarg.problemsolving.util;
 
-// Author               : Umang J Gala
-// Last Modified Date   : 10-Mar-2019
-
 /**
  * Class: Utility.java
  *

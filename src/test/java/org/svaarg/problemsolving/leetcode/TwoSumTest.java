@@ -1,8 +1,5 @@
 package org.svaarg.problemsolving.leetcode;
 
-// Author : Umang J Gala
-// Date   : 05-Jan-2019
-
 import org.junit.runners.Parameterized;
 import org.svaarg.problemsolving.TestHelper;
 

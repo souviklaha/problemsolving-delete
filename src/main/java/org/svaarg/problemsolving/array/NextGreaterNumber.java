@@ -1,8 +1,5 @@
 package org.svaarg.problemsolving.array;
 
-// Author               : Umang J Gala
-// Last Modified Date   : 02-Feb-2019
-
 /*
 Problem Statement
 -----------------

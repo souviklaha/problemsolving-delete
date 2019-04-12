@@ -10,7 +10,6 @@ import java.util.Collection;
 import java.util.Scanner;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 /**
  * Class NextGreaterNumberTest
