@@ -1,4 +1,4 @@
-package org.svaarg.problemsolving.leetcode;
+package org.svaarg.problemsolving.array;
 
 /*
 Problem Statement
@@ -32,14 +32,14 @@ Sample Input 2:
 6 2 8 4 3
 
 Sample Output 2:
-0 0
+-1 -1
 
  */
 
 import java.util.HashMap;
 
 /**
- * Class TwoSum
+ * Class: TwoSum
  * Find indices of the two numbers such that they add up to a specific target
  *
  * @author Umang J Gala
@@ -63,6 +63,6 @@ class TwoSum {
         map.put(target - elements[index], index);
       }
     }
-    return new int[]{0, 0};
+    return new int[]{-1, -1};
   }
 }
