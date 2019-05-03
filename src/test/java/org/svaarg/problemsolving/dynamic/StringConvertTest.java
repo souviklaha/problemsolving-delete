@@ -12,7 +12,7 @@ import java.util.Scanner;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Class StringConvertTest
+ * Class: StringConvertTest
  *
  * @author Umang J Gala
  */
@@ -46,7 +46,7 @@ public class StringConvertTest {
     String toMatch = input.next();
     int expectedOutput = output.nextInt();
     StringConvert object = new StringConvert();
-    assertEquals(expectedOutput, object.convertString(toConvert,toMatch));
+    assertEquals(expectedOutput, object.convertString(toConvert, toMatch));
   }
 
   @org.junit.After

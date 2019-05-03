@@ -13,26 +13,29 @@ import static org.junit.Assert.assertArrayEquals;
 /**
  * Class: ReversePositiveNumbersTest
  *
- * @author    Umang J Gala
+ * @author Umang J Gala
  */
 @org.junit.runner.RunWith(Parameterized.class)
 public class ReversePositiveNumbersTest {
 
-  @Parameterized.Parameters(name="array/ReversePositiveNumbersTest - Test: {index}")
+  @Parameterized.Parameters(name = "array/ReversePositiveNumbersTest - Test: {index}")
   public static Collection<Object[]> data() {
     String directoryPath = System.getProperty("testFilesRootDirectory");
     directoryPath += "array/reversepositivenumbers/";
     return TestHelper.getTestCases(new File(directoryPath));
   }
 
-  @Parameterized.Parameter() public File inputFile;
+  @Parameterized.Parameter()
+  public File inputFile;
 
-  @Parameterized.Parameter(1) public File outputFile;
+  @Parameterized.Parameter(1)
+  public File outputFile;
 
   private ReversePositiveNumbers object;
   private Scanner input, output;
 
-  @org.junit.Before public void beforeTest() {
+  @org.junit.Before
+  public void beforeTest() {
     try {
       object = new ReversePositiveNumbers();
       input = new Scanner(inputFile);
@@ -42,12 +45,14 @@ public class ReversePositiveNumbersTest {
     }
   }
 
-  @org.junit.After public void afterTest() {
+  @org.junit.After
+  public void afterTest() {
     input.close();
     output.close();
   }
 
-  @org.junit.Test public void reversePositiveNosTest() {
+  @org.junit.Test
+  public void reversePositiveNosTest() {
     int noOfElements = input.nextInt();
     int[] inputElements = new int[noOfElements];
     int[] outputElements = new int[noOfElements];

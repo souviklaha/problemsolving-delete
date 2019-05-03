@@ -2,7 +2,7 @@ package org.svaarg.problemsolving.tree;
 
 /**
  * Class: PrefixTree
- *
+ * <p>
  * Supports insert, search and startsWith functionality.
  *
  * @author Umang J Gala
@@ -10,7 +10,7 @@ package org.svaarg.problemsolving.tree;
 class PrefixTree {
   private TrieNode root;
 
-  PrefixTree(){
+  PrefixTree() {
     root = new TrieNode();
   }
 
@@ -35,6 +35,7 @@ class PrefixTree {
 
   /**
    * Returns true if the word is present in Prefix Tree else false.
+   *
    * @param word word to search
    * @return true if any word is present else false
    */
@@ -50,7 +51,7 @@ class PrefixTree {
    * @param prefix prefix word
    * @return true if any word starts with prefix else false
    */
-  boolean startsWith(String prefix){
+  boolean startsWith(String prefix) {
     return getLeaf(prefix) != null;
   }
 

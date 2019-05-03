@@ -12,7 +12,7 @@ import java.util.Scanner;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Class NoThreeTest
+ * Class: NoThreeTest
  *
  * @author Umang J Gala
  */

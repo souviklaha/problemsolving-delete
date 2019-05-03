@@ -22,7 +22,7 @@ public class PrefixTreeTest {
   }
 
   @Test
-  public void testSearch(){
+  public void testSearch() {
     assertTrue(prefixTree.search("apple"));
     assertTrue(prefixTree.search("app"));
     assertTrue(prefixTree.search("aura"));

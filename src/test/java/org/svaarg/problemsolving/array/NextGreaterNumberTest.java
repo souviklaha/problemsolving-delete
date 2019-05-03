@@ -12,7 +12,7 @@ import java.util.Scanner;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Class NextGreaterNumberTest
+ * Class: NextGreaterNumberTest
  *
  * @author Umang J Gala
  */
@@ -41,10 +41,10 @@ public class NextGreaterNumberTest {
 
   @org.junit.Test
   public void nextGreaterNumberTest() {
-      Integer number = input.nextInt();
-      int expectedOutput = output.nextInt();
-      NextGreaterNumber object = new NextGreaterNumber();
-      assertEquals(expectedOutput, object.findNext(number.toString().toCharArray()));
+    Integer number = input.nextInt();
+    int expectedOutput = output.nextInt();
+    NextGreaterNumber object = new NextGreaterNumber();
+    assertEquals(expectedOutput, object.findNext(number.toString().toCharArray()));
   }
 
   @org.junit.After

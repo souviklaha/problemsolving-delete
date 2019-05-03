@@ -38,7 +38,7 @@ Sample Output 1:
 import org.svaarg.problemsolving.util.Utility;
 
 /**
- * Class: NoThree.java
+ * Class: NoThree
  * <p>
  * To find a sub-sequence with the maximum possible sum, with the restriction
  * that we are not allowed to take three consecutive elements from the
@@ -53,7 +53,7 @@ class NoThree {
    * that we are not allowed to take three consecutive elements from
    * input sequence
    *
-   * @param  inputSequence    elements in input sequence
+   * @param inputSequence elements in input sequence
    * @return int          maximum sum of subsequence
    */
   int maximumSumWithNoThreeConsecutiveElement(int[] inputSequence) {

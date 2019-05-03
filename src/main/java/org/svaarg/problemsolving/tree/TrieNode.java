@@ -17,19 +17,19 @@ class TrieNode {
     children = new HashMap<>();
   }
 
-  TrieNode getChild(char c){
+  TrieNode getChild(char c) {
     return children.get(c);
   }
 
-  void setChild(char c, TrieNode child){
-    children.put(c,child);
+  void setChild(char c, TrieNode child) {
+    children.put(c, child);
   }
 
-  void setLeaf(boolean flag){
-    leaf=flag;
+  void setLeaf(boolean flag) {
+    leaf = flag;
   }
 
-  boolean isLeaf(){
+  boolean isLeaf() {
     return leaf;
   }
 }

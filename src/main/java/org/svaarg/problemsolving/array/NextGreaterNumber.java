@@ -35,7 +35,7 @@ import org.svaarg.problemsolving.util.Utility;
 import java.util.Arrays;
 
 /**
- * Class NextGreaterNumber
+ * Class: NextGreaterNumber
  * Find the smallest number that has same set of digits as given number
  *
  * @author Umang J Gala

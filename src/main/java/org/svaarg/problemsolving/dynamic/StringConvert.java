@@ -43,15 +43,16 @@ Sample Output 1:
 import org.svaarg.problemsolving.util.Utility;
 
 /**
- * Class: StringConvert.java
+ * Class: StringConvert
  *
  * @author Umang J Gala
  */
 class StringConvert {
   /**
    * Converts string X into string Y at minimal cost.
+   *
    * @param toConvert string X to be converted
-   * @param toMatch string Y to match with
+   * @param toMatch   string Y to match with
    * @return minimum conversion cost
    */
   int convertString(String toConvert, String toMatch) {
@@ -60,24 +61,24 @@ class StringConvert {
     int insertCost = 4;
     int replaceCost = 5;
 
-    for(int lengthY = 0; lengthY <= toMatch.length(); lengthY++) {
-      for(int lengthX = 0; lengthX <= toConvert.length(); lengthX++) {
-        if(lengthY == 0) {
+    for (int lengthY = 0; lengthY <= toMatch.length(); lengthY++) {
+      for (int lengthX = 0; lengthX <= toConvert.length(); lengthX++) {
+        if (lengthY == 0) {
           solution[lengthX][0] = lengthX * removeCost;
           continue;
         }
-        if(lengthX == 0) {
+        if (lengthX == 0) {
           solution[0][lengthY] = lengthY * insertCost;
           continue;
         }
-        if(toConvert.charAt(lengthX - 1) == toMatch.charAt(lengthY - 1)) {
+        if (toConvert.charAt(lengthX - 1) == toMatch.charAt(lengthY - 1)) {
           solution[lengthX][lengthY] = solution[lengthX - 1][lengthY - 1];
           continue;
         }
         int ifRemoved = solution[lengthX - 1][lengthY] + removeCost;
         int ifInserted = solution[lengthX][lengthY - 1] + insertCost;
         int ifReplaced = Integer.MAX_VALUE;
-        if(lengthX > 1) {
+        if (lengthX > 1) {
           ifReplaced = solution[lengthX - 2][lengthY - 1] + replaceCost;
         }
         solution[lengthX][lengthY] =

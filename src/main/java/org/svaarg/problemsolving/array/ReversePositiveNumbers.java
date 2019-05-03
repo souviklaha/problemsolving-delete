@@ -27,12 +27,12 @@ Sample Output 1:
  */
 
 /**
- * Class ReversePositiveNumbers
+ * Class: ReversePositiveNumbers
  * Reverse all consecutive positive numbers between negative numbers
  *
  * @author Umang J Gala
  */
-public class ReversePositiveNumbers {
+class ReversePositiveNumbers {
 
   /**
    * reversePositiveNos
