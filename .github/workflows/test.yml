@@ -14,5 +14,4 @@ jobs:
           java-version: 11
       - uses: eskatos/gradle-command-action@v1
         with:
-          wrapper-directory: gradle/wrapper/
           arguments: test
