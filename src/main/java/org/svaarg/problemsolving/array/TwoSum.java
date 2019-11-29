@@ -1,41 +1,5 @@
 package org.svaarg.problemsolving.array;
 
-/*
-Problem Statement
------------------
-Given an array of integers, return indices of the two numbers such that they
-add up to a specific target.
-
-You may assume that each input would have exactly one solution, and you may
-not use the same element twice.
-
-Input Format
-------------
-The first line contains two integers - first is size of the array and second
-is target element. The second line contains integer array elements separated
-by space
-
-Output Format
--------------
-The output contains two indices of the two numbers that add up to target
-separated by space
-
-Sample Input 1:
-4 9
-2 7 11 15
-
-Sample Output 1:
-0 1
-
-Sample Input 2:
-5 18
-6 2 8 4 3
-
-Sample Output 2:
--1 -1
-
- */
-
 import java.util.HashMap;
 
 /**
@@ -46,7 +10,8 @@ import java.util.HashMap;
  */
 class TwoSum {
   /**
-   * Return two indices of the two numbers that add up to target
+   * twoSum
+   * function to return two indices of the two numbers that add up to target
    *
    * @param elements array elements
    * @param target   target value

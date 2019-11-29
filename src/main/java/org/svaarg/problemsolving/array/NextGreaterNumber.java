@@ -1,35 +1,5 @@
 package org.svaarg.problemsolving.array;
 
-/*
-Problem Statement
------------------
-Given a number n, find the smallest number that has same set of digits as n
-and is greater than n. If x is the greatest possible number with its set of
-digits, then print "NOT POSSIBLE"
-
-Input Format
-------------
-Input contains only one integer value n
-
-Output Format
--------------
-The output contains single line a number, smallest and greater than n with same
-set of digits or -1 if no such number possible
-
-Sample Input 1:
-218765
-
-Sample Output 1:
-251678
-
-Sample Input 2:
-4321
-
-Sample Output 2:
--1
-
- */
-
 import org.svaarg.problemsolving.util.Utility;
 
 import java.util.Arrays;
@@ -41,6 +11,14 @@ import java.util.Arrays;
  * @author Umang J Gala
  */
 class NextGreaterNumber {
+  /**
+   * findNext
+   * function to returns smallest number greater than number with same set
+   * of digits
+   *
+   * @param noDigits character sequence of digits in number
+   * @return smallest number greater than number with same set of digits
+   */
   int findNext(char[] noDigits) {
     int i;
 

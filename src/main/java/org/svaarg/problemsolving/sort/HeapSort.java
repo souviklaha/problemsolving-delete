@@ -9,6 +9,11 @@ import org.svaarg.problemsolving.util.Utility;
  * @author Umang J Gala
  */
 public class HeapSort {
+  /**
+   * Heap sort algorithm
+   *
+   * @param elements elements to sort
+   */
   public static void sort(int[] elements) {
     int noOfElements = elements.length;
     // Build heap (rearrange array)

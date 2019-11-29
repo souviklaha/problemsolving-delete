@@ -8,6 +8,11 @@ import org.svaarg.problemsolving.util.Utility;
  * @author Umang J Gala
  */
 public class SelectionSort {
+  /**
+   * Selection sort algorithm
+   *
+   * @param elements elements to sort
+   */
   public static void sort(int[] elements) {
     int minimum, minimumIndex;
     for (int element = 0; element < elements.length - 1; element++) {

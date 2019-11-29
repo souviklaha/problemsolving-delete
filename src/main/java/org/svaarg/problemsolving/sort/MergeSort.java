@@ -7,6 +7,11 @@ package org.svaarg.problemsolving.sort;
  * @author Umang J Gala
  */
 public class MergeSort {
+  /**
+   * Merge sort algorithm
+   *
+   * @param elements elements to sort
+   */
   public static void sort(int[] elements, int start, int end) {
     if (start < end) {
       int middleIndex = (start + end) / 2;

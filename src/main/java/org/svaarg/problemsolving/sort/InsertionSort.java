@@ -6,6 +6,11 @@ package org.svaarg.problemsolving.sort;
  * @author Umang J Gala
  */
 public class InsertionSort {
+  /**
+   * Insertion sort algorithm
+   *
+   * @param elements elements to sort
+   */
   public static void sort(int[] elements) {
     for (int element = 0; element < elements.length; element++) {
       int index = element;

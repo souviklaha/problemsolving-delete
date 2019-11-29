@@ -6,6 +6,11 @@ package org.svaarg.problemsolving.sort;
  * @author Umang J Gala
  */
 public class ShellSort {
+  /**
+   * Shell sort algorithm
+   *
+   * @param elements elements to sort
+   */
   public static void sort(int[] elements) {
     int noOfElements = elements.length;
     int gap = noOfElements / 2;

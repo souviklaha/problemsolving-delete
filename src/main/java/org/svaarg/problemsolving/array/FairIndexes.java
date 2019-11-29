@@ -8,20 +8,20 @@ package org.svaarg.problemsolving.array;
  */
 public class FairIndexes {
   /**
-   * Return number of fair indexes
-   *
+   * fairIndexes
+   * function to return number of fair indexes
    * Time complexity: O(n) where n is length of arrays
    * Space Complexity: O(n) where n is length of arrays
    *
    * @param arrayOne first array
    * @param arrayTwo second array
-   * @param length length of both the arrays
+   * @param length   length of both the arrays
    * @return number of fair indexes
    */
   int fairIndexes(int[] arrayOne, int[] arrayTwo, int length) {
     // store the incremental sum of both array elements
-    int[] incrementalSumArrayOne = new int[length+1];
-    int[] incrementalSumArrayTwo = new int[length+1];
+    int[] incrementalSumArrayOne = new int[length + 1];
+    int[] incrementalSumArrayTwo = new int[length + 1];
     for (int index = 1; index <= length; index++) {
       incrementalSumArrayOne[index] = incrementalSumArrayOne[index - 1] + arrayOne[index - 1];
       incrementalSumArrayTwo[index] = incrementalSumArrayTwo[index - 1] + arrayTwo[index - 1];

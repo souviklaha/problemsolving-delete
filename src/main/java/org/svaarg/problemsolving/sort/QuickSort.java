@@ -8,6 +8,11 @@ import org.svaarg.problemsolving.util.Utility;
  * @author Umang J Gala
  */
 public class QuickSort {
+  /**
+   * Quick sort algorithm
+   *
+   * @param elements elements to sort
+   */
   public static void sort(int[] elements, int start, int end) {
     if (start < end) {
       int partition = partition(elements, start, end);

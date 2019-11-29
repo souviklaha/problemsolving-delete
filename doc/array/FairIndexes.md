@@ -18,7 +18,7 @@ No of fair indices = 2
 The fair indexes are 2 and 3. In both cases, the sum of elements of the
 sub-arrays are equal to 3
 
-## Assumption
+## Assumption / Constraints
   * N is an integer within the range [2 - 100,000]
   * Each element in the arrays A and B is an integer with the range 
     [-1,000,000,000 - 1,000,000,000]

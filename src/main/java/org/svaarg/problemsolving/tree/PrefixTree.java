@@ -2,7 +2,6 @@ package org.svaarg.problemsolving.tree;
 
 /**
  * Class: PrefixTree
- * <p>
  * Supports insert, search and startsWith functionality.
  *
  * @author Umang J Gala
@@ -15,6 +14,7 @@ class PrefixTree {
   }
 
   /**
+   * insert
    * Inserts a word into the Prefix Tree.
    *
    * @param word word to insert into Prefix Tree
@@ -34,6 +34,7 @@ class PrefixTree {
   }
 
   /**
+   * search
    * Returns true if the word is present in Prefix Tree else false.
    *
    * @param word word to search
@@ -56,6 +57,7 @@ class PrefixTree {
   }
 
   /**
+   * getLeaf
    * Function that traverse to leaf node in Prefix Tree and returns the node
    * if all character are present else return null.
    *
