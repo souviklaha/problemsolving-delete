@@ -1,4 +1,4 @@
-## LeetCode Problems list
-|  #  | Title | Solution | Time | Space |
+## Problems list
+| LeetCode # | Time | Space | Solution | Title |
 | --- | ----- | -------- | ---- | ----- |
-|1| [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](../src/main/java/org/svaarg/problemsolving/leetcode/TwoSum.java) | _O(n)_| _O(n)_ |
+| 1 | _O(n)_| _O(n)_ | [Java](../src/main/java/org/svaarg/problemsolving/array/TwoSum.java) | [Two Sum](https://leetcode.com/problems/two-sum/)
