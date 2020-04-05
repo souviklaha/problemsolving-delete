@@ -28,16 +28,45 @@ public class LinkedList {
   }
 
   /**
+   * equals
+   * checks whether other object is same as this object
+   *
+   * @param obj object to be check
+   * @return true if this object is same as obj argument else false
+   */
+  public boolean equals(Object obj) {
+    if (this == obj)
+      return true;
+    if (obj == null || getClass() != obj.getClass())
+      return false;
+    LinkedList list = (LinkedList) obj;
+    if (this.head == list.head)
+      return true;
+    if (this.head == null || list.head == null)
+      return false;
+    ListNode left = this.head;
+    ListNode right = list.head;
+    while (left.next != null && right.next != null) {
+      if (left.value != right.value)
+        return false;
+      left = left.next;
+      right = right.next;
+    }
+    return left.next == null && right.next == null;
+  }
+
+  /**
    * create (static method)
    * function to create the linked list from the space separated elements sent
    * in the string
+   * if the string is null or empty, it returns linked list with null head
    *
    * @param list string of space separated elements
-   * @return linked list with elements
+   * @return linked list with elements or linked list with null head
    */
   public static LinkedList create(String list) {
     if (list == null || list.isEmpty())
-      return null;
+      return new LinkedList();
     LinkedList linkedList = new LinkedList();
     String[] elements = list.split(" ");
     for (String element : elements) {
@@ -51,7 +80,7 @@ public class LinkedList {
    * insert the value as node to the end of linked list
    *
    * @param linkedList list to add value
-   * @param value value to be added to the list
+   * @param value      value to be added to the list
    */
   public static void insertAtEnd(LinkedList linkedList, int value) {
     ListNode newNode = new ListNode(value);
