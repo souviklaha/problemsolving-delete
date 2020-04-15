@@ -2,10 +2,7 @@ plugins {
   id 'java'
 }
 
-group 'org.svaarg'
-version '0.1'
-
-sourceCompatibility = 1.8
+group 'org.swaarg'
 
 repositories {
   mavenCentral()
