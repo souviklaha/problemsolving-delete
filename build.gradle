@@ -1,5 +1,7 @@
 plugins {
+  id 'jacoco'
   id 'java'
+  id 'org.sonarqube' version '2.7'
 }
 
 group 'org.swaarg'
@@ -10,12 +12,30 @@ repositories {
 
 dependencies {
   testCompile group: 'junit', name: 'junit', version: '4.12'
+  testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+  testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
 }
 
 test {
   systemProperty 'testFilesRootDirectory', project.testFilesRootDirectory
-
+  useJUnitPlatform()
   testLogging {
     events "standardOut", "standardError", "failed", "skipped", "passed"//, "started"
   }
 }
+
+jacocoTestReport {
+  reports {
+    xml.enabled true
+    xml.destination = file('build/jacoco/report.xml')
+  }
+}
+
+sonarqube {
+  properties {
+    // project name in SonarCloud
+    property 'sonar.projectName', 'problemsolving'
+  }
+}
+
+project.tasks['sonarqube'].dependsOn 'jacocoTestReport'
