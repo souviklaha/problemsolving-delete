@@ -1,3 +1,4 @@
+[![Github Action](https://github.com/galaumang/problemsolving/workflows/build/badge.svg)](https://github.com/galaumang/problemsolving/actions)
 ![](https://img.shields.io/badge/language-java-yellow.svg)
 ![](https://img.shields.io/github/license/galaumang/problemsolving?color=orange)
 ![](https://img.shields.io/github/repo-size/galaumang/problemsolving)
