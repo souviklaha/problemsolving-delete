@@ -8,7 +8,7 @@
 
 `git clone https://github.com/<username>/problemsolving`
 
-**Step 4:** Create a branch and start working on your problem.
+**Step 4:** Create a branch and start working on your problem and include unit test with different test cases.
 
 **Step 5:** Once you have done all the changes make a local commit and push to your repository.
 
