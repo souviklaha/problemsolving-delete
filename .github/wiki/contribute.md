@@ -2,7 +2,7 @@
 
 **Step 1:** Create an account on github.
 
-**Step 2:** Fork your own copy of Problem Solving into your github account by clicking on the "Fork" button present at the right top corner of [this](https://github.com/toumangg/problemsolving) page﻿.
+**Step 2:** Fork your own copy of Problem Solving into your github account by clicking on the "Fork" button present at the right top corner of [this](https://github.com/galaumang/problemsolving) page﻿.
 
 **Step 3:** Navigate to your account and clone that copy to your development box
 
