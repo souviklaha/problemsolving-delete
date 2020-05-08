@@ -22,9 +22,21 @@ class LongestSubstringTest {
     );
   }
 
-  @ParameterizedTest
+  @ParameterizedTest(name = "Without repeating characters - Brute Force - {index} > {0} > ")
   @MethodSource("testCases")
   public void testLengthOfLongestSubstringWithoutRepeatingCharBruteForce(String input, int expected) {
       assertEquals(expected,LongestSubstring.lengthOfLongestSubstringWithoutRepeatingCharBruteForce(input));
+  }
+
+  @ParameterizedTest(name = "Without repeating characters - Sliding Window - {index} > {0} > ")
+  @MethodSource("testCases")
+  public void testLengthOfLongestSubstringWithoutRepeatingCharSlidingWindow(String input, int expected) {
+    assertEquals(expected,LongestSubstring.lengthOfLongestSubstringWithoutRepeatingCharSlidingWindow(input));
+  }
+
+  @ParameterizedTest(name = "Without repeating characters - Sliding Window Optimized - {index} > {0} > ")
+  @MethodSource("testCases")
+  public void testLengthOfLongestSubstringWithoutRepeatingCharSlidingWindowOptimized(String input, int expected) {
+    assertEquals(expected,LongestSubstring.lengthOfLongestSubstringWithoutRepeatingCharSlidingWindowOptimized(input));
   }
 }
